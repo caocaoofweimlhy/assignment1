@@ -1,0 +1,16 @@
+{%load staticfiles%}
+
+<link rel="stylesheet" type="text/css" href="{% static 'notes/newstyle.css' %}" />
+
+{% if note %}
+    <a href={%url 'detail' note.id %}>
+        <textarea>
+            {{note.date}}
+                
+            {{note.title}}
+            {{note.content}}
+        </textarea>
+    </a>
+{% else %}
+    <p>No notes are available.</p>
+{% endif %}

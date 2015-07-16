@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Yellowtail);
+
+textarea {
+    display:block;
+    background: url(http://i.stack.imgur.com/ynxjD.png) repeat-y;
+    width: 600px;
+    height: auto;
+    min-height: 300px;
+    font-family: 'Yellowtail', cursive;
+    font-size: 24px;
+    line-height: 25px;
+    padding: 0% 25px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom:20px;
+    border: solid 1px #ddd;
+    overflow:hidden;
+    box-shadow:0 4px 6px rgba(0,0,0,0.1);
+    text-align:left;
+}
+
+a{
+    text-decoration:none;
+}
+
+body{
+    background:url(media/table.jpg);
+}
